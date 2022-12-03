@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600&family=Roboto+Slab:wght@200;300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+ 
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    border: none  !important;
+}
+
+.products .card img{
+    
+    
+    height:auto !important ;
+    width:100px  !important;
+    margin-bottom: -40px;
+    margin-left: 10px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.products .card:hover img{
+    transform: scale(1.07) rotate(-10deg);
+}
+
+.products.card button{
+    box-shadow: inset 0 0 0 0 #0d6efd;
+    transition: 0.4s;
+}
+
+.products.card button:hover{
+    color: white !important;
+    box-shadow: inset 100px 0 0 0 #0d6efd;
+}
+
+.card-body{
+    padding-top: 60px;
+}
+
+.quantity:focus-visible{
+    outline: none;
+}
+
+.cards .img-in-card{
+    width: 20% !important;
+    height: auto !important;
+}
+
+.add-to-card{
+    transition: ease-out 0.4s;
+    box-shadow: inset 0 0 0 0 #446e9b;
+}
+
+.add-to-card:hover{
+    box-shadow: inset 300px 0 0 0 #446e9b;
+    color: white !important;
+}
+
+.add-to-card:active{
+    transform: scale(0.8);
+}
